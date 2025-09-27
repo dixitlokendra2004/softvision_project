@@ -1,0 +1,84 @@
+name: softvision_project
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  provider:
+  get:
+  searchfield:
+  intl:
+  file_picker: ^9.2.1
+  cached_network_image:
+  flutter_svg:
+  http: ^0.13.3
+  flutter_expanded_tile: ^0.3.7
+  shared_preferences: ^2.0.8
+  image_picker: ^0.8.4+4
+  fluttertoast: ^8.2.5
+  pin_code_fields: ^8.0.1
+  excel: ^2.0.0
+  share: ^2.0.4
+  carousel_slider: ^5.0.0
+  image: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: font/Montserrat-Thin.ttf
+          weight: 100
+        - asset: font/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: font/Montserrat-Light.ttf
+          weight: 300
+        - asset: font/Montserrat-Regular.ttf
+          weight: 400
+        - asset: font/Montserrat-Medium.ttf
+          weight: 500
+        - asset: font/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: font/Montserrat-Bold.ttf
+          weight: 700
+        - asset: font/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: font/Montserrat-Black.ttf
+          weight: 900
+
+    - family: Poppins
+      fonts:
+        - asset: font/Poppins-Medium.ttf
+          weight: 500
+        - asset: font/Poppins-SemiBold.ttf
+          weight: 600
+
+    - family: Roboto
+      fonts:
+        - asset: font/Roboto-Regular.ttf
+          weight: 400
+
+    - family: SF Pro Text
+      fonts:
+        - asset: font/SFProText-Medium.ttf
+          weight: 500
+
